@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ACCESS_GRANTED: DAD_BDAY_2026</title>
+    <style>
+        body { background-color: #0c0c0c; color: #00ff41; font-family: 'Courier New', Courier, monospace; padding: 50px; }
+        .terminal { border: 2px solid #00ff41; padding: 20px; box-shadow: 0 0 15px #00ff41; max-width: 800px; margin: auto; }
+        h1 { font-size: 1.5em; border-bottom: 1px solid #00ff41; padding-bottom: 10px; }
+        .blink { animation: blinker 1s linear infinite; }
+        @keyframes blinker { 50% { opacity: 0; } }
+        .log-entry { margin-bottom: 15px; }
+        .command { color: #ffffff; }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+        <h1>> SYSTEM_INITIALIZING...</h1>
+        <p class="log-entry"><span class="command">C:\Users\Dad></span> run birthday_wish.exe</p>
+        <p class="log-entry">Searching for memories... [OK]</p>
+        <p class="log-entry">Loading Dad Jokes database... [OK]</p>
+        <hr>
+        <h2>HAPPY BIRTHDAY, DAD!</h2>
+        <p>From Scratch projects to University, thanks for being my favorite mentor.</p>
+        <p class="log-entry"><strong>> MESSAGE:</strong> "I know you said don't spend a dime, so I spent some lines of code instead."</p>
+        <hr>
+        <p class="log-entry"><span class="command">C:\Users\Dad></span> <span class="blink">_</span></p>
+    </div>
+</body>
+</html>
